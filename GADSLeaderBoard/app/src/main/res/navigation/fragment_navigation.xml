@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_navigation"
+    app:startDestination="@id/learningFragment">
+
+    <fragment
+        android:id="@+id/learningFragment"
+        android:name="com.jombeja.gadsleaderboard.LearningFragment"
+        android:label="fragment_learning"
+        tools:layout="@layout/fragment_learning" >
+        <action
+            android:id="@+id/action_learningFragment_to_skillIqFragment"
+            app:destination="@id/skillIqFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/skillIqFragment"
+        android:name="com.jombeja.gadsleaderboard.SkillIqFragment"
+        android:label="fragment_skill_iq"
+        tools:layout="@layout/fragment_skill_iq" >
+        <action
+            android:id="@+id/action_skillIqFragment_to_learningFragment"
+            app:destination="@id/learningFragment" />
+    </fragment>
+</navigation>

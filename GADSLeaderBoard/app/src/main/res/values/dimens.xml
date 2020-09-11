@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbarsubmit_size">102dp</dimen>
+    <dimen name="padding_left">8dp</dimen>
+    <dimen name="padding_right">8dp</dimen>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">GADS LeaderBoard</string>
+    <string name="tab1">Learning Leaders</string>
+    <string name="tab2">Skill IQ Leaders</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="learning_badge">Learning Badge</string>
+    <string name="persons_name">Persons Name</string>
+    <string name="hours">Hours</string>
+    <string name="country">Country</string>
+    <string name="skill_iq">Skill_IQ</string>
+    <string name="iq_badge">IQ_BADGE</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email Address</string>
+    <string name="github_link">Project on GITHUB (link)</string>
+    <string name="submit_button_label">Submit</string>
+    <string name="main_label">LEADERBOARD</string>
+    <string name="submit">Submit</string>
+    <string name="project_submission">Project Submission</string>
+    <string name="header_image">Header Image</string>
+    <string name="text_confirm">Are you sure ?</string>
+    <string name="x">X</string>
+    <string name="yes">Yes</string>
+    <color name="gold_yellow">#FFD700</color>
+</resources>
